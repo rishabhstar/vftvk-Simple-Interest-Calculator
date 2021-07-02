@@ -4,9 +4,12 @@ function compute()
     r= document.getElementById("rate").value;
     y=document.getElementById("years").value;
     
-    res=p*r*y
-    document.getElementById("result").innerHTML=res-p
-    document.getElementById("resul").innerHTML="If you deposit<br>"+ res+"at an interest rate of"+r+"% <br>"+"You will recieve an amount of <br>"+res ;
+    let cur=2021;
+    
+    res=(p*r/100)*y;
+    let z=cur+parseInt(y);
+    document.getElementById("result").innerHTML=res;
+    document.getElementById("resul").innerHTML="<br>If you deposit  "+p+"<br>at an interest rate of  "+r+"% <br>"+"You will recieve an amount of "+res+"<br>in the Year "+z;
     
 }
         

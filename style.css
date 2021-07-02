@@ -1,10 +1,19 @@
-body {background-color:rgb(243, 241, 237);}
+body {background-color:rgb(243, 241, 237);
+height: 100pc;
+width:100c;}
 h1{color:rgb(117, 124, 117);
-text-align: center;
+text-align: justify;
 }
-h2{text-align: center;}
+h2{text-align: justify; 
+padding: 30px;}
+#co{
+    text-align: inherit;
+    font-size: 17;
+
+}
 #resul{
-    text-align: center;
+    text-align: inherit;
+    padding: 30px;
 }
 
 
