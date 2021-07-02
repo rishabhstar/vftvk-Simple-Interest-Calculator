@@ -3,7 +3,13 @@ function compute()
     p = document.getElementById("principal").value;
     r= document.getElementById("rate").value;
     y=document.getElementById("years").value;
-    
+    if(p<=0){
+        alert("please enter vale greater then zero");
+        setTimeout(function(){
+                document.getElementById("principal").focus();
+                
+            }, 1);
+    }
     let cur=2021;
     
     res=(p*r/100)*y;
