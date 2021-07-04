@@ -1,9 +1,13 @@
 body {background-color:rgb(243, 241, 237);
-height: 100pc;
-width:100c;}
+    border-radius: 25px;
+    border: 2px solid #111111;
+    padding: 20px;
+    width: 500px;
+    height: 400px;}
 h1{color:rgb(117, 124, 117);
 text-align: justify;
 }
+
 h2{text-align: justify; 
 padding: 30px;}
 #co{
